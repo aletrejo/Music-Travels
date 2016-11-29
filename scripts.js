@@ -153,7 +153,7 @@ function getBandsInTownData2016(theInputValue){
 	console.log("theInputValue");
 
 	//constructing string for the API request
-	var bandsURL = "http://api.bandsintown.com/artists/";
+	var bandsURL = "https://api.bandsintown.com/artists/";
 	var artist = theInputValue; 
 	var contbandsURL = "/events.json?api_version=2.0&app_id=MUSIC_TRAVELS&date=";
 	var startDate = "2016-01-01,"; 
@@ -197,7 +197,7 @@ function getBandsInTownDataUpcoming(theInputValue){
 	console.log("About to get Bands in Town Data");
 
 	//constructing string for the API request
-	var bandsURL = "http://api.bandsintown.com/artists/";
+	var bandsURL = "https://api.bandsintown.com/artists/";
 	var artist = theInputValue; 
 	var contbandsURL = "/events.json?api_version=2.0&app_id=MUSIC_TRAVELS";
 
