@@ -1,0 +1,110 @@
+html{
+
+
+background: #ff6e7f; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ff6e7f , #bfe9ff); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ff6e7f , #bfe9ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       
+
+        
+}
+
+ #map {
+        width: 100%;
+        height: 60%;
+        background-color: grey;
+        position:absolute;
+        z-index: -1;
+        display:block;
+        margin:0px;
+      }
+
+h1{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.searchBar{
+	display: inline-block;
+	padding-left: 10%;
+	padding-right: 10%;
+	width:80%;
+}
+
+.header{
+	width:98%;
+	margin:1%;
+	border:1%;
+	/*background-color: rgba(255, 255, 255, 0.5); */
+}
+
+#the-input{
+    width: 300px;
+
+}
+
+/* When the input field gets focus, change its width to 100% */
+
+.header p{
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	border:1%;
+	margin-top:0px;
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+	color: rgb(255,255,255);
+
+}
+
+.header h1{
+	position: relative;
+	top: 5px;
+	padding-left: 10%;
+	padding-right: 10%;
+	width: 80%;
+	text-align: center;
+	color: white;
+	/*color: rgb(63,63,63); */
+}
+
+#concertTitle{
+	font-size: 1em;
+}
+
+#thumbPic{
+	float:left;
+}
+
+#the-button{
+	position: relative;
+	border: 1%;
+	margin-bottom: 5px;
+}
+
+#the-button2{
+	position: relative;
+	border: 1%;
+	margin-bottom: 5px;
+}
+
+.search-bar{
+	position:absolute;
+	padding-left: 10%;
+	padding-right: 10%;
+	width:80%;
+}
+
+.about{
+	width:100%;
+}
+
+a{
+	position: fixed;
+	left: 15px;
+	top: 10px;
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+	color: white;
+}
+

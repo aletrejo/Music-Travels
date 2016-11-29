@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="utf-8"/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+
+
+			<!-- <meta name="viewport" content="width=device-width"> -->
+			<title>MUSIC TRAVELS</title> 
+			<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+
+
+	<body>
+			<div class = "header"> 
+				<h1> MUSIC TRAVELS</h1>
+				<p> Search for an artist and check out if they're on tour! </p>
+			</div>
+
+
+			<div class="search-bar"/>
+					<input id="the-input" type="text" name="search" placeholder="Search..">
+					<button id ="the-button"> Show All Concerts in 2016 </button>
+					<button id ="the-button2"> Show Upcoming Concerts </button>
+			</div>
+
+
+			<div id="map"></div>
+
+			<div class="about"> <a href="about/index.html"/> ABOUT </div>
+
+
+
+
+
+			<!-- scripts -->
+			<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBby5zA8-py6dlLAnEE-JW_gj6cJBnfB4&callback=initMap">
+	    	</script>
+
+			<script src="scripts.js"></script>
+	</body>
