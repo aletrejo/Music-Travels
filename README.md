@@ -1,5 +1,9 @@
 MUSIC TRAVELS
 =============
+
+[Live site](http://atr313.nyuad.im/music/ "Music Travels")
+
+
 For project #1 our goal was to create a website that, upon user input, would respond with data from 2 different APIs. Based on this criteria, I decided to develop Music Travels, a website that allows people to check where their favorite artists will have concerts soon and where they have been in 2016.
 
 In order to make Music Travels happen I used the Bands in Town API along with the Google Maps API. I got all the artist information like pictures, concert dates and venue locations from the Bands in Town API and then I passed in this information to the Google Maps API to make a map that showed users the places where concerts had been held or will be held.
