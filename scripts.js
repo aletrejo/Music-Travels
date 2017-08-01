@@ -99,48 +99,8 @@ function removeMarkers(){
 
 	setMapOnAll(null);
 	markers = [];
-
-  // Removes the markers from the map, but keeps them in the array.
-
-      
-
-
-      // Deletes all markers in the array by removing references to them.
-      // function deleteMarkers() {
-      //   clearMarkers();
-      //   markers = [];
-      // }
 }
 
-// function makeMarkers(){
-
-// 	//var markerImage = "http://pix.iemoji.com/phan33/0344.png";
-// 	var contentString = "Blah";
-
-
-// 	var infowindow = new google.maps.InfoWindow();
-
-
-//     for(var i =0; i < artistConcerts.length; i++){
-//     	var myLatLng = {lat: artistConcerts[i].venue.latitude, lng: artistConcerts[i].venue.longitude};
-//     	marker = new google.maps.Marker({
-//      		position: myLatLng,
-//      		map: theMap,
-//      		title: artistConcerts[i].title
-//      		//icon: markerImage
-//     	});
-
-//     	google.maps.event.addListener(marker, 'click', (function(marker, i) {
-//         return function() {
-//           //infowindow.setContent(artistConcerts[i].title);
-//           infowindow.setContent(makeTextBox(i));
-//           infowindow.open(map, marker);
-//         }
-//       })(marker, i));
-
-
-//     }
-// }
 
 
 
